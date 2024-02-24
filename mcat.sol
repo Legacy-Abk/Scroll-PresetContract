@@ -4,9 +4,9 @@ pragma solidity ^0.8.0;
 
 contract MztacatCommunity {
     string public name = "MztacatCommunity";
-    string public symbol = "MZT";
+    string public symbol = "MZTA";
     uint8 public decimals = 18;
-    uint256 public totalSupply = 1000000 * (10 ** uint256(decimals));
+    uint256 public totalSupply = 10000000 * (10 ** uint256(decimals));
     address public owner;
    
     mapping(address => uint256) balances;
